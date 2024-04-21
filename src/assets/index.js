@@ -6,11 +6,11 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/jeremih.png';
 
 import backend from './icons/backend.png';
-import ux from './icons/ux.png';
-import frontend from './icons/frontend.png';
+import api from './icons/api.png';
+import web from './icons/web.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
@@ -27,27 +27,27 @@ import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
-import html from './tech/html.png';
+import python from './tech/python.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
+import rest_api from './tech/rest_api.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
+import upwork from './company/upwork.png';
 import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
+import sandtech from './company/sandtech.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
+import uniguide from './projects/uniguide.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
+import bookstore from './projects/bookstore.png';
 import space from './projects/space-hub.png';
 
 export {
@@ -59,8 +59,8 @@ export {
   logotext,
   shaq,
   backend,
-  ux,
-  frontend,
+  api,
+  web,
   prototyping,
   github,
   close,
@@ -77,7 +77,7 @@ export {
   figma,
   git,
   graphql,
-  html,
+  python,
   javascript,
   nodejs,
   postgresql,
@@ -85,15 +85,15 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
+  rest_api,
   komikult,
-  leaderboard,
+  uniguide,
   math,
   movie,
-  nyeusi,
+  bookstore,
   space,
-  coverhunt,
+  upwork,
   dcc,
-  kelhel,
+  sandtech,
   microverse,
 };

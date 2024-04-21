@@ -1,11 +1,11 @@
 import {
-  frontend,
+  web,
   backend,
-  ux,
+  api,
   prototyping,
   javascript,
-  typescript,
-  html,
+  rest_api,
+  python,
   css,
   reactjs,
   redux,
@@ -18,14 +18,14 @@ import {
   rubyrails,
   graphql,
   komikult,
-  leaderboard,
+  uniguide,
   math,
   movie,
-  nyeusi,
+  bookstore,
   space,
-  coverhunt,
+  sandtech,
   dcc,
-  kelhel,
+  upwork,
   microverse,
 } from '../assets';
 
@@ -46,16 +46,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'Web Development',
+    icon: web,
   },
   {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'API Development',
+    icon: api,
   },
   {
     title: 'Software Prototyping',
@@ -65,8 +65,8 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'Python',
+    icon: python,
   },
   {
     name: 'CSS 3',
@@ -77,8 +77,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Rest_Api',
+    icon: rest_api,
   },
   {
     name: 'React JS',
@@ -124,32 +124,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Free-lance Developer',
+    company_name: 'Upwork',
+    icon: upwork,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Aug 2023 - Dec 2023',
   },
   {
     title: 'Mentor (Volunteer)',
     company_name: 'Microverse',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jan 2024',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Mentor (Voluntere Software Engineer',
+    company_name: 'Sand Technologies',
+    icon: sandtech,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Feb 2024',
   },
   {
-    title: 'Full Stack Developer',
+    title: 'Mentor (Voluntere)',
     company_name: 'Diversity Cyber Council',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'March 2024 - Present',
   },
 ];
 
@@ -178,9 +178,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Uniguide',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Uniguide is an application that simplifies the search for schools and scholarships.',
     tags: [
       {
         name: 'react',
@@ -195,9 +195,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: uniguide,
+    repo: 'https://github.com/OkpePhillips/school_finder_project',
+    demo: 'https://uniguidee.vercel.app/',
   },
   {
     id: 'project-3',
@@ -245,9 +245,9 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Bookstore CMS',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'book store allows users to add books to the store, remove books from the store, and view the books in the store.',
     tags: [
       {
         name: 'nextjs',
@@ -262,9 +262,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: bookstore,
+    repo: 'https://github.com/InfinityJer/Portfolio-Project/tree/master/BookHub',
+    demo: 'https://bookstorecmsreact.netlify.app/',
   },
 ];
 
