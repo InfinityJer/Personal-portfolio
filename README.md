@@ -1,11 +1,4 @@
-# Portfolio Template
-
-https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7
-
-![portfolio-phone](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e41ed31c-50e5-40d3-a74f-9c0eb053fe7f)
-![portfolio-phone-3](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e8c23aa7-ac27-48fc-bf66-50ab00e3a64f)
-
-I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
+# Developer Portfolio
 
 ## License and Attribution
 
@@ -38,7 +31,7 @@ Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 - [Download the ZIP file from this location](https://github.com/shaqdeff/Portfolio-Template/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
 ```
-git clone https://github.com/shaqdeff/Portfolio-Template.git
+git clone https://github.com/InfinityJer/Personal-portfolio.git
 ```
 
 - Once the files are on your machine, open the **Portfolio-Template** folder in [Visual Studio Code](https://code.visualstudio.com/download).
@@ -82,6 +75,10 @@ npm run preview
 ```
 
 ## Authors
+
+👤 **Jeremiah Kuria**
+- GitHub: [@InfinityJer](https://github.com/InfinityJer)
+- LinkedIn: [Jeremiah Kuria](https://www.linkedin.com/in/jeremiah-kuria-5b4787206/)
 
 👤 **Shaquille Ndunda**
 
