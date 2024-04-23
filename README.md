@@ -15,7 +15,7 @@ All projects and experiences included in this portfolio are the result of my own
 
 ## Live Demo
 
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
+- Click [here](https://www.infinity-jer.tech/) to view the live demo.
 
 ## Getting Started
 
@@ -88,7 +88,7 @@ npm run preview
 
 ## Feedback and Contributions
 
-If you have any feedback, suggestions, or would like to contribute to this project, your involvement is highly valued. Feel free to open an [issue](../../issues/) or submit a pull request with your ideas and enhancements. Remember, this template is a starting point, and the true magic lies in making it your own. Enjoy the journey of creating a stunning portfolio that represents your unique talents and accomplishments!
+If you have any feedback, suggestions, or would like to contribute to this project, your involvement is highly valued. Feel free to open an [issue](https://github.com/InfinityJer/Personal-portfolio/issues) or submit a pull request with your ideas and enhancements. Remember, this template is a starting point, and the true magic lies in making it your own. Enjoy the journey of creating a stunning portfolio that represents your unique talents and accomplishments!
 
 Happy coding and showcasing!
 
