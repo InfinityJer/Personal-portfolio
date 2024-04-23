@@ -1,9 +1,12 @@
+/* Importing Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Tailwind base, components, and utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom fonts */
 @font-face {
   font-family: 'Arenq';
   src: url('./fonts/arenq.otf');
@@ -29,6 +32,7 @@
   src: url('./fonts/overcame-outline.woff');
 }
 
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +41,7 @@
   color-scheme: dark;
 }
 
+/* Navigation link hover effect */
 .nav-links::after {
   content: '';
   display: block;
@@ -51,22 +56,89 @@
   width: 70%;
 }
 
-#about {
-  margin-left: -24px;
-  font-size: 100px;
-}
-
-#projects {
-  margin-left: -2px;
+/* Section headings */
+#about,
+#projects,
+#contact {
+  margin-left: -20px;
   font-size: 100px;
 }
 
 #contact {
-  margin-left: -20px;
-  font-size: 95px;
   letter-spacing: -2px;
 }
 
+/* Responsive adjustments */
+@media (max-width: 575px) {
+
+  /* Mobile styles */
+  #about,
+  #projects,
+  #contact {
+    font-size: 50px;
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* Tablet styles */
+  #about,
+  #projects,
+  #contact {
+    font-size: 80px;
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  /* Desktop styles */
+  #about,
+  #projects,
+  #contact {
+    font-size: 100px;
+    margin-left: -20px;
+  }
+}
+
+/* Default styles */
+.shaq-img {
+  /* Styles for the default size (e.g., desktop) */
+  width: 50%;
+  /* Adjust the width as needed */
+  position: absolute;
+  /* Keep the position absolute */
+  bottom: 0;
+  right: 0;
+  /* Align the image to the right */
+}
+
+/* Media query for smaller screens (e.g., tablets) */
+@media (max-width: 768px) {
+  .shaq-img {
+    /* Styles for tablets */
+    width: 70%;
+    /* Adjust width for tablet screens */
+    bottom: 0;
+    right: 0;
+    /* Keep it aligned to the right */
+  }
+}
+
+/* Media query for even smaller screens (e.g., phones) */
+@media (max-width: 480px) {
+  .shaq-img {
+    /* Styles for phones */
+    width: 100%;
+    /* Full width for small screens */
+    bottom: 0;
+    right: 0;
+    /* Keep it aligned to the right */
+  }
+}
+
+/* Additional styles */
 .hero-heading {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
@@ -81,11 +153,9 @@
 
 .vertical-timeline.vertical-timeline-custom-line::before {
   background: rgb(66, 66, 66);
-  background: linear-gradient(
-    180deg,
-    rgba(66, 66, 66, 0.8) 40%,
-    rgba(234, 234, 236, 0.45) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(66, 66, 66, 0.8) 40%,
+      rgba(234, 234, 236, 0.45) 100%);
 }
 
 .vertical-timeline-element-icon {
@@ -115,23 +185,19 @@
 
 .bw-gradient {
   background: rgb(10, 10, 10);
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 0.8) 40%,
-    rgba(153, 153, 161, 0) 70%
-  );
+  background: linear-gradient(180deg,
+      rgba(10, 10, 10, 0.8) 40%,
+      rgba(153, 153, 161, 0) 70%);
 }
 
 .card-gradient {
   background: rgb(244, 244, 246);
-  background: linear-gradient(
-    158deg,
-    rgba(153, 153, 161, 1) 25%,
-    rgba(153, 153, 161, 1) 100%
-  );
+  background: linear-gradient(158deg,
+      rgba(153, 153, 161, 1) 25%,
+      rgba(153, 153, 161, 1) 100%);
 }
 
-/* canvas- styles */
+/* Loader styles */
 .canvas-loader {
   font-size: 10px;
   width: 1em;
