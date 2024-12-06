@@ -101,10 +101,7 @@ const Experience = () => {
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
               onClick={() =>
-                window.open(
-                  'Resume Kuria Jeremiah - SE..pdf, //paste the link to your resume here
-                  '_blank'
-                )
+                window.open(('/Resume%20Kuria%20Jeremiah%20-%20SE.pdf', '_blank')
               }
               onMouseOver={() => {
                 document
