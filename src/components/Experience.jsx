@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'file:///C:/Users/Hp/Downloads/Resume%20Kuria%20Jeremiah%20-%20SE..pdf, //paste the link to your resume here
+                  'Resume Kuria Jeremiah - SE..pdf, //paste the link to your resume here
                   '_blank'
                 )
               }
