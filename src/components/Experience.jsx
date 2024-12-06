@@ -101,7 +101,7 @@ const Experience = () => {
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
               onClick={() =>
-                window.open(('/Resume%20Kuria%20Jeremiah%20-%20SE.pdf', '_blank')
+                window.open(('/Resume_Kuria_Jeremiah_SE.pdf', '_blank'))
               }
               onMouseOver={() => {
                 document
